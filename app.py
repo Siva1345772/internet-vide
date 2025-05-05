@@ -22,7 +22,7 @@ active_downloads = {}
 
 def check_ffmpeg():
     """Check if ffmpeg is installed and return its path."""
-    hardcoded_ffmpeg_path = r"ffmpeg-7.1.1-full_build\bin\ffmpeg.exe"
+    hardcoded_ffmpeg_path = r"ffmpeg.exe"
     
     if os.path.exists(hardcoded_ffmpeg_path):
         logger.info(f"FFmpeg found at: {hardcoded_ffmpeg_path}")
